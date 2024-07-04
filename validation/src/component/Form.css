@@ -1,0 +1,28 @@
+.form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+}
+
+.input input{
+    border-radius: 5px;
+    height: 30px;
+}
+
+input:focus{
+    outline: none;
+}
+
+button {
+    padding: 10px 70px;
+    margin-top: 10px;
+    background-color: rgb(96, 255, 104);
+    cursor: pointer;
+    border-radius: 5px;
+}
