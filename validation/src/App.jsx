@@ -4,7 +4,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <h1 className='heading1'>Form Validation1</h1>
+      <h1 className='heading1'>Form Validation</h1>
       <Form />
     </>
   );

@@ -24,22 +24,22 @@ const Form = ()=> {
         <div className='form-box'>
             <form onSubmit={handleSubmit}>
                 <div className='input'>
-                    <label>username</label>
+                    <label>Username</label>
                     <input type="text" name="username" onChange={handleInput} />
                     {error.username && <small>{error.username}</small>}
                 </div>
                 <div className='input'>
-                    <label>email</label>
+                    <label>Email</label>
                     <input type="email" name="email" onChange={handleInput} />
                     {error.email && <small>{error.email}</small>}
                 </div>
                 <div className='input'>
-                    <label>password</label>
+                    <label>Password</label>
                     <input type="password" name="password" onChange={handleInput} />
                     {error.password && <small>{error.password}</small>}
                 </div>
                 <div className='input'>
-                    <label>comfirm password</label>
+                    <label>Comfirm Password</label>
                     <input type="password" name="confirmPassword" onChange={handleInput} />
                     {error.confirmPassword && <small>{error.confirmPassword}</small>}
                 </div>
