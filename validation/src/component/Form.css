@@ -10,8 +10,8 @@
 }
 
 .input input{
-    border-radius: 5px;
-    height: 30px;
+    border-radius: 13px;
+    height: 40px;
 }
 
 input:focus{
@@ -20,11 +20,12 @@ input:focus{
 
 button {
     width: 100%;
-    padding: 10px;
+    height: 45px;
     margin-top: 10px;
-    background-color: rgb(96, 255, 104);
+    background-color: rgb(47, 158, 255);
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 13px 13px 30px 30px;
+    font-size: 20px;
 }
 
 small {
